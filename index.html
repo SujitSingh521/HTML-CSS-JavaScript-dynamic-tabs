@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="sub-title">Fertility Solutions</h3>
+        <h1 class="main-title">Comprehensive Fertility Treatments</h1>
+        <p class="description">We offer a broad range of advanced treatments tailored to your unique circumstances:</p>
+
+        <div class="content">
+            <!-- Left Side: Tabs -->
+            <div class="tabs">
+                <div class="tab" onclick="showDescription('icsi')">ICSI (Intracytoplasmic Sperm Injection)</div>
+                <div id="icsi-description" class="tab-description">ICSI is a treatment where a single sperm is injected directly into an egg to help fertilization, especially in male infertility cases.</div>
+
+                <div class="tab" onclick="showDescription('imsi')">IMSI</div>
+                <div id="imsi-description" class="tab-description">IMSI examines sperm at a microscopic level to ensure optimal selection, particularly for male infertility cases.</div>
+
+                <div class="tab" onclick="showDescription('microchip')">MicroChip Technology</div>
+                <div id="microchip-description" class="tab-description">MicroChip Technology uses a unique device to separate sperm based on their quality to increase the chances of successful fertilization.</div>
+
+                <div class="tab" onclick="showDescription('embryoscope')">EmbryoScope® Time-Lapse System</div>
+                <div id="embryoscope-description" class="tab-description">EmbryoScope® Time-Lapse System monitors embryo development with precision and helps select the best embryo for transfer.</div>
+            </div>
+
+            <!-- Right Side: Image -->
+            <div class="image-box">
+                <img id="treatmentImage" src="https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Treatment Image">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
